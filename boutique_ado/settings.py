@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-0kkvtvxd10=%p3#!z@vtf26bgdw#wu*^-&5ki-ja=8zsfwa(tl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-garymast-boutique-ado-v1-0kf7ulo2nr.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-garymast-boutique-ado-v1-xjshcxxgwn.us2.codeanyapp.com']
 
 
 # Application definition
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products',
 
 ]
 
